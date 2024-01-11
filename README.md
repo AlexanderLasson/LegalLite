@@ -1,6 +1,6 @@
 # LegaLite: Simplifying Terms of Service Analysis
 
-![LegaLite Logo](link-to-logo.png)
+
 
 Welcome to LegaLite, a powerful tool developed during my college years to simplify the understanding of complex Terms of Service agreements. LegaLite is built using the Django Python framework, incorporating HTML and JavaScript to provide a seamless and user-friendly experience.
 
@@ -15,7 +15,7 @@ Easily upload your Terms of Service agreements through LegaLite's intuitive inte
 LegaLite goes beyond simple explanations by visually representing the complexity of different segments in the Terms of Service. Using a sophisticated algorithm, detected segments are color-coded, helping users quickly identify the simplicity or complexity of each section.
 
 - **Green:** Simple and straightforward terms
-- **Yellow:** Moderately complex terms
+- **Brown:** Moderately complex terms
 - **Red:** Complex and potentially confusing terms
 
 ### 3. **Database Storage**
