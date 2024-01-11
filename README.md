@@ -38,11 +38,8 @@ Visit [http://localhost:8000](http://localhost:8000) in your web browser to star
 
 ## Contributing
 
-We welcome contributions to enhance and expand LegaLite. Whether you're a developer, legal expert, or user with valuable feedback, your input is valuable. Please check our [Contribution Guidelines](CONTRIBUTING.md) for more details.
+We welcome contributions to enhance and expand LegaLite. Whether you're a developer, legal expert, or user with valuable feedback, your input is valuable. 
 
-## License
-
-LegaLite is licensed under the [MIT License](LICENSE), ensuring flexibility for both personal and commercial use.
 
 Feel free to explore LegaLite, simplify your Terms of Service analysis, and contribute to building a more transparent online environment! If you have any questions or feedback, don't hesitate to open an issue or reach out to us.
 
