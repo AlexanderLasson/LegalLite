@@ -12,10 +12,13 @@ Comparison Tool: Users can compare multiple TOS agreements to identify differenc
 User Profiles: Registered users have access to a profile page where they can view and edit their information. The profile also displays TOS agreements and edits contributed by the user.
 Community Ranking: Users can provide community rankings for TOS agreements, contributing to the overall legitimacy score.
 
+
+Implementation
+
+Implemented features such as user registration, profile management, TOS submission, comparison, and search functionality. Integrated spaCy for automated annotation of TOS submissions, enhancing the efficiency of identifying specific legal clauses. Utilized Django forms for user interactions, enabling users to submit, edit, and compare TOS agreements. Implemented a community ranking system for TOS submissions, allowing users to rate and contribute to the ranking of TOS agreements. Ensured a user experience with responsive and interactive web pages.
+ 
 ![Main](images/legalite.png)
 ![Main](images/legalite2.png)
 ![Main](images/legalite3.png)
 ![Main](images/legalite4.png)
-
-Implemented features such as user registration, profile management, TOS submission, comparison, and search functionality. Integrated spaCy for automated annotation of TOS submissions, enhancing the efficiency of identifying specific legal clauses. Utilized Django forms for user interactions, enabling users to submit, edit, and compare TOS agreements. Implemented a community ranking system for TOS submissions, allowing users to rate and contribute to the ranking of TOS agreements. Ensured a user experience with responsive and interactive web pages.
 
