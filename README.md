@@ -12,7 +12,7 @@ Comparison Tool: Users can compare multiple TOS agreements to identify differenc
 User Profiles: Registered users have access to a profile page where they can view and edit their information. The profile also displays TOS agreements and edits contributed by the user.
 Community Ranking: Users can provide community rankings for TOS agreements, contributing to the overall legitimacy score.
 
-
+![Main](images/legalite.png)
 
 
 
