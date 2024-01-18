@@ -17,5 +17,5 @@ Community Ranking: Users can provide community rankings for TOS agreements, cont
 ![Main](images/legalite3.png)
 ![Main](images/legalite4.png)
 
-This Django web application provides a comprehensive platform for managing TOS agreements, enabling user contributions, comparisons, and detailed insights into individual TOS agreements.
+Implemented features such as user registration, profile management, TOS submission, comparison, and search functionality. Integrated spaCy for automated annotation of TOS submissions, enhancing the efficiency of identifying specific legal clauses. Utilized Django forms for user interactions, enabling users to submit, edit, and compare TOS agreements. Implemented a community ranking system for TOS submissions, allowing users to rate and contribute to the ranking of TOS agreements. Ensured a user experience with responsive and interactive web pages.
 
