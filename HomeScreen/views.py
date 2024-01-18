@@ -11,7 +11,6 @@ from .models import ElementText
 from .algo import *
 from django.contrib.auth.decorators import login_required
 from .forms import TOSForm, UserRegisterForm, UserUpdateForm, EditFormSet, EditForm, CompareForm, RankingForm
-# Create your views here.
 
 def home(request):
     return render(request, 'HomeScreen/index.html')
@@ -148,10 +147,12 @@ def ViewTOS(request, tos_name=''):
     # TOS out of date flag
     tosOOD = query.outOfDate
     # get community Rating
-    if query.communityRating != 0:
-        commRank = '{0:.1f}'.format(query.communityRating/query.communityCount)
+    if query.communityCount is not None and query.communityCount != 0:
+        commRank = '{0:.1f}'.format(query.communityRating / query.communityCount)
     else:
-        commRank = 0
+    # Handle the case where communityCount is None or 0
+        commRank = 'N/A'  # Or any default value or error 
+
 
     adminRank= query.weightRating
     
