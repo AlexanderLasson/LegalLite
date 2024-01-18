@@ -17,3 +17,57 @@ Community Ranking: Users can provide community rankings for TOS agreements, cont
 ![Main](images/legalite3.png)
 ![Main](images/legalite4.png)
 
+Prerequisites:
+Python:
+Ensure that Python is installed on your machine. If not, download and install Python from python.org.
+Git:
+Install Git on your machine from git-scm.com.
+Steps:
+Clone the Repository:
+Open a terminal or command prompt.
+Run the following command to clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/your-repository.git
+Replace your-username and your-repository with your GitHub username and the repository name.
+Navigate to the Project Directory:
+Change into the project directory:
+bash
+Copy code
+cd your-repository
+Create a Virtual Environment:
+Create a virtual environment to isolate project dependencies:
+bash
+Copy code
+python -m venv venv
+Activate the virtual environment:
+On Windows:
+bash
+Copy code
+.\venv\Scripts\activate
+On macOS/Linux:
+bash
+Copy code
+source venv/bin/activate
+Install Dependencies:
+Install the project dependencies using pip:
+bash
+Copy code
+pip install -r requirements.txt
+Apply Migrations:
+Apply the initial database migrations:
+bash
+Copy code
+python manage.py migrate
+Create a Superuser (Optional):
+Create an admin superuser to access the Django admin interface:
+bash
+Copy code
+python manage.py createsuperuser
+Follow the prompts to set up an admin account.
+Run the Development Server:
+Start the Django development server:
+bash
+Copy code
+python manage.py runserver
+The server will run by default on http://127.0.0.1:8000/.
