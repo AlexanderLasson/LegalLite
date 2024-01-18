@@ -13,6 +13,7 @@ User Profiles: Registered users have access to a profile page where they can vie
 Community Ranking: Users can provide community rankings for TOS agreements, contributing to the overall legitimacy score.
 
 ![Main](images/legalite.png)
-
-
+![Main](images/legalite2.png)
+![Main](images/legalite3.png)
+![Main](images/legalite4.png)
 
